@@ -1,0 +1,201 @@
+/* Changing the background colour of the navi bar*/
+.topnav {
+  background-color: #d6d6c2;
+  overflow: hidden;
+}
+/*Styling the Links within the navi bar*/
+.topnav a {
+  float: left;
+  color: #353433;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+	
+}
+/* Choosing what colour the links are to be when active*/
+.topnav a.active {
+  background-color: #898785;
+  color: white;
+}
+/*Formatting the Search bar field*/
+  .topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 120px;
+  font-size: 17px;
+}
+/*Formatting the 'go' Enter button*/
+.topnav input[type=submit] {
+	margin-left: 205px;
+	margin-top:14px;
+	Float: right;
+	border:none;
+	position: absolute;
+	
+}
+/* Adding main logo and formatting position and size */
+#Mainlogo{
+	Height:45px;
+	width:45px;
+	margin-left: 385px;
+	margin-bottom:33px;
+	Float: right;
+	border:none;
+	position: absolute;
+	
+}
+/*Formatting the Couch image on homepage*/
+#acouch {
+	margin-left:400px;
+	margin-top:50px;
+	position:absolute;
+border-radius: 20%;	
+	
+}
+/*Formatting the Clothes image on homepage*/
+#clothes2 {
+margin-left:600px;
+	margin-top:50px;
+	position:absolute;
+	border-radius: 20%;
+}
+/*Formatting the toys image on homepage*/
+#toys{
+    margin-left:600px;
+	margin-top:240px;
+	position:absolute;
+	border-radius: 20%;
+}
+
+/*Formatting the plates image on homepage*/
+#plates {
+	margin-left:400px;
+	margin-top:240px;
+	position:absolute;
+	border-radius: 20%;
+}
+
+/* Formatting search box on left side of home screen */
+#searchbox {
+	margin-top:200px;
+	margin-left:80px;
+	border-radius: 20%;
+}
+/*Editing bag image on home screen*/
+#bags{
+		margin-left:800px;
+	margin-top:50px;
+	position:absolute;
+	border-radius: 20%;
+}
+/*editing mac image on home screen*/
+#mac{
+		margin-left:800px;
+	margin-top:240px;
+	position:absolute;
+	border-radius: 20%;
+}
+
+
+.PC {
+	margin-left:550px;
+	margin-top:-195px;
+	position:absolute;
+	border-radius: 10%;
+}
+/*editing white box for item upload forms*/
+#itemdesc {
+	margin-left:100px; 
+	position:relative;
+	position: inline;
+	margin:0px;
+}
+
+.outcometext{
+	margin-right: -100px;
+	position:absolute;
+}
+
+.item1 {
+	margin-left:30px;
+	Position:Absolute;
+	
+}
+/*Editing full name form on register page*/
+#fullnamebox{
+float:right;
+margin-top:200px;
+}
+
+#item01 {
+	margin-left:110px;
+}
+
+.aboutimages{
+	position:relative;
+}
+
+#handshake{
+	margin-bottom:300px;
+	margin-left:300px;
+	border-radius:25px;
+	position:absolute;
+	
+}
+
+#wrapper{
+	 margin-left:auto;
+    margin-right:auto;
+    width:960px;
+	
+}
+/*CSS for the go button featured on many pages*/
+#gobutton{
+	margin-right:155px;
+	
+}
+/*Log in form field formatting*/
+#logonfield{
+	margin-right:0px;
+	
+}
+/*Overall CSS for log out button featured on all pages*/
+#logoutbutton{
+	margin-top:-36px;
+	margin-left:380px;
+	position:absolute;
+}
+
+
+/*All of below is formatting the form fields for uploading an item*/
+#addname{
+	margin-left:40px;
+}
+
+#adddesc{
+	margin-left:8px;
+}
+
+#addkeyword{
+	margin-left:22px;
+}
+
+#addphoto{
+	margin-top:10px;
+}
+
+#addbtn{
+	margin-top:3px;
+}
+
+#addprice{
+	margin-left:77px;
+}
+
+#itempics{
+	width:10px;
+	height:10px;
+}
