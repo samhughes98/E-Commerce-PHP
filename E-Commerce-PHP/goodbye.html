@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<div id="wrapper">
+<head>
+<!--Connecting the CSS sheet to the HTML file-->
+<link rel="stylesheet" href="Style.css">
+<!--Div containing the elements for the top navigation bar, will continue for whole site-->
+<div class="topnav">
+        <a href="homepage.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="list.php">Your Items</a>
+        <a href="contact.html">Contact</a>
+        <a class="active"href="login.php">Log in</a>
+        <a class="active"href="login.php">Register</a>
+   <form id="gobutton" action="homepage.php" method="POST">
+        <input type="text" name="Search" placeholder="Listings...">
+        <input type="submit" Value="Go">
+</form>
+  <img src="Images/Homepage/logo.png" id="Mainlogo">
+</div> 
+</head>
+
+
+
+<form id="logoutbutton" action="logout.php" method="POST">
+    <input type="submit" Value="Log out">
+    </form>
+	
+	
+	
+<body>
+
+<body>
+<!--Adding image for background-->
+<div class="background">
+<body background="images\Homepage\clothes.jpeg">
+</div>
+
+
+<!--Creating the textbox area for the login details-->
+<div class="textbox1"style="width:600px;height:490px;border:2px solid #000; 
+margin-top:20px;margin-left:180px;background-color:#FFFFFF;text-align:center;
+border-radius: 25px;position:absolute;"/>
+
+<h1>Goodbye <?php echo $_SESSION['username']; ?> </h1>
+
+<h2>Youre now logged out of your account</h2>
+
+
+
+
+</div>
+</body>
+</html> 
