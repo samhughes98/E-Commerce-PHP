@@ -8,7 +8,7 @@
  
 <!--Div containing the elements for the top navigation bar, will continue for whole site-->
 <div class="topnav">
-<a href="homepage.html">Home</a>
+<a href="index.html">Home</a>
 <a href="About.html">About</a>
 <a class="active" href="youritems.html">Your Items</a>
 <a href="contact.html">Contact</a>

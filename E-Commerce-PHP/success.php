@@ -20,7 +20,7 @@ session_start();
         <div id="wrapper">
 
             <!--Div containing the elements for the top navigation bar, will continue for whole site-->
-            <div class="topnav"><a class="active" href="homepage.html">Home</a> <a href="About.html">About</a> <a href="youritems.html">Your Items</a> <a href="contact.html">Contact</a> <a href="login.html">Log in</a> <a href="login.html">Register</a>
+            <div class="topnav"><a class="active" href="index.html">Home</a> <a href="About.html">About</a> <a href="youritems.html">Your Items</a> <a href="contact.html">Contact</a> <a href="login.html">Log in</a> <a href="login.html">Register</a>
 
                 <form id="gobutton" action="Search.php" method="POST" name="Search">
                     <input type="text" name="Search" placeholder="Listings..." />

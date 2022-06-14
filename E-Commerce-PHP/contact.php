@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
 
 <!--Div containing the elements for the top navigation bar, will continue for whole site-->
 <div class="topnav">
-<a href="homepage.html">Home</a>
+<a href="index.html">Home</a>
 <a href="About.html">About</a>
 <a href="list.php">Your Items</a>
 <a  class="active" href="contact.html">Contact</a>

@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="Style.css">
         <!--Div containing the elements for the top navigation bar, will continue for whole site-->
         <div class="topnav">
-            <a href="homepage.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="About.html">About</a>
             <a href="list.php">Your Items</a>
             <a href="contact.html">Contact</a>
